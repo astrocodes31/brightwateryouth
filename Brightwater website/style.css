@@ -1,0 +1,258 @@
+/*css for brightwater*/
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: 'Noto Sans Display', sans-serif;
+    background-color: #ffffff;
+}
+
+html{
+    background-color: #82AFDF;
+}
+
+header{
+    background-color: #001c3a;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+/*NAVAGATION START*/
+
+nav{
+    background-color: #16487e;
+    padding: 3px;
+    margin: 0;
+    display: flex;
+}
+
+nav li:hover{
+    background-color: #f6c64e;
+}
+
+ul {
+    list-style: none;
+    justify-content: space-between;
+    max-width: 500px;
+    
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#dif-nav{
+    background-color: #f28a00;
+}
+
+#dif-nav:hover{
+    background-color: #f6c64e;
+}
+
+/*NAVAGATION END*/
+
+/*MAIN BANNER START*/
+#main-banner{
+    display: flex;
+    background-color: #001c3a;
+    color: #ffffff;
+    font-size: 40px;
+    height: 400px;
+    margin: 0;
+    width: 100%;
+}
+
+#main-banner img{
+    max-height: 400px;
+    max-width: 100%;
+}
+
+#main-banner h3{
+    padding: 5px;
+}
+
+/*MAIN BANNER END*/
+
+#banner{
+    display: flex;
+    height: 100px;
+    background-color: #001c3a;
+    margin: 0;
+}
+
+#banner h1{
+    font-size: 50px;
+    justify-content: center;
+    color: #ffffff;
+}
+
+
+/*SECTION START*/
+
+section{
+    margin: 10px;
+}
+
+
+#section-img{
+    display: flex;
+    width: 100%;
+    max-height: 400px;
+    margin: 0;
+    background-color: #001c3a;
+    
+}
+
+#section-img img{
+    align-self: flex-end;
+    max-height: 400px;
+    max-width: 100%;
+    
+}
+
+/*SECTION END*/
+
+/*FOOTER START*/
+
+footer{
+    background-color: #001c3a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #f6c64e;
+}
+
+/*FOOTER END*/
+
+#map{
+    display: flex;
+}
+
+/*SIGN IN START*/
+
+#sign-in-button{
+    background-color: #f28a00;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 500px;
+}
+
+#sign-in-button:hover{
+    background-color: #f6c64e; 
+}
+
+#sign-in{
+    padding: 20px;
+}
+
+/*SIGN IN END*/
+
+/*BLOG START*/
+
+a #blog-link{
+    border: 2px solid #16487e;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+}
+
+#blog-link img{
+    max-width: 300px;
+}
+
+#blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*BLOG END*/
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact{
+    padding: 10px;
+}
+
+
+#forum-links{
+    border: 2px solid #16487e;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+/*SMALL SCREENS START*/
+@media screen and (max-width: 700px){
+    ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    li{
+        flex: 1 0 auto;
+        text-align: center;
+        padding: 9px;
+    }
+    
+    nav{
+        justify-content: center;
+    }
+    
+    nav li{
+        padding: 10px 50px;
+    }
+
+}
+/*SMALL SCREENS END*/
+
+
+/*MEDIUM SCREENS START*/
+@media screen and (max-width: 870px){
+        #main-banner img{
+        position: relative;
+    }
+
+    #main-banner h3{
+        position: absolute;
+    }
+}
+/*MEDIUM SCREENS END*/
+
+
+/*LARGE SCREENS START*/
+@media screen and (min-width: 701px){
+    
+    nav ul{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    nav li{
+        padding: 10px;
+    }
+    
+    
+}
+/*LARGE SCREENS END*/
+
